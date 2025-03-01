@@ -123,6 +123,12 @@ def make_scad(**kwargs):
         widths = [1,1.5,2,3,4,5,6,7,8,9,10]
         heights = [1,1.5,2,3,4,5,6,7,8,9,10]
 
+        #short
+        #if True:
+        if False:            
+            widths = [7]
+            heights = [1.5]
+            depths = [90]
 
         for extra in extras:
             for depth in depths:
