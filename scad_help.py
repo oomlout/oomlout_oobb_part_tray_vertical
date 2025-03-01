@@ -70,8 +70,14 @@ def make_scad_generic(part):
         descextra = f"{current_description_extra}"
         kwargs["oomp_description_extra"] = f"{descextra}"
     elif oomp_mode == "oobb":
-        current_description_main = thing.get("description_main", "default")        
+        current_description_main = thing.get("description_main", "default")   
+        descmain = f"{current_description_main}" 
+
+        descextra = thing.get("extra", "")    
+        if descextra != "":
+            descextra = f"{descextra}_extra"
         kwargs["oomp_description_main"] = f"{current_description_main}"
+        kwargs["oomp_description_extra"] = f"{descextra}"
         kwargs["oomp_size"] = f"{part["name"]}"
 
     #move oomp bits from kwargs to part
@@ -90,6 +96,7 @@ def make_scad_generic(part):
     oomp_id = ""
     for key in oomp_keys:
         deet = part.get(key, "")
+        deet = deet.replace(".","_")
         if deet != "":
             oomp_id += f"{deet}_"
     oomp_id = oomp_id[:-1]
