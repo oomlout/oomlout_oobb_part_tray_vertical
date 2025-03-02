@@ -25,10 +25,11 @@ def make_scad(**kwargs):
     oomp_mode = "oobb"
 
     if typ == "all":
-        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
+        filter = ""; save_type = "all"; navigation = True; overwrite = False; modes = ["3dpr"]; oomp_run = True
         #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr", "laser", "true"]
     elif typ == "fast":
-        filter = ""; save_type = "none"; navigation = False; overwrite = True; modes = ["3dpr"]; oomp_run = False
+        filter = ""; save_type = "none"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = False
+        #filter = ""; save_type = "none"; navigation = False; overwrite = True; modes = ["3dpr"]; oomp_run = False
     elif typ == "manual":
     #filter
         filter = ""
@@ -156,11 +157,11 @@ def make_scad(**kwargs):
     #generate navigation
     if navigation:
         sort = []
-        #sort.append("extra")
         sort.append("name")
         sort.append("width")
         sort.append("height")
         sort.append("thickness")
+        sort.append("extra")
         
         scad_help.generate_navigation(sort = sort)
 
