@@ -18,7 +18,7 @@ kwargs:
   height: 1.5
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: oobb
   oomp_color: ''
   oomp_description_extra: only_m6_hole_extra

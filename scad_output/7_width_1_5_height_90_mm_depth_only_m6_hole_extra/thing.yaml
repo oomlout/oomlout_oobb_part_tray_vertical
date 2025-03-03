@@ -18,7 +18,7 @@ kwargs:
   height: 1.5
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: oobb
   oomp_color: ''
   oomp_description_extra: only_m6_hole_extra
@@ -1269,7 +1269,7 @@ thing:
     height: 1.5666666666666667
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1295,7 +1295,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1326,7 +1326,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1359,7 +1359,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1388,7 +1388,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1417,7 +1417,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1446,7 +1446,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1474,7 +1474,7 @@ thing:
     height: 2
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1505,7 +1505,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1537,7 +1537,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1569,7 +1569,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1601,7 +1601,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1633,7 +1633,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1665,7 +1665,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1697,7 +1697,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1729,7 +1729,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: oobb
     oomp_color: ''
     oomp_description_extra: ''
@@ -1756,22 +1756,22 @@ thing:
     type: negative_negative
     width: 7
   components_string:
-  - oobb_plate_shape_positive_type_90_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7.066666666666666_width_1.5666666666666667_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra
-  - sphere_rectangle_shape_negative_type_0_0_2.9925_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_4_radius_102.0_19.5_135_size
-  - sphere_rectangle_shape_negative_negative_type_0_0_2.9925_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_2_radius_102.0_19.5_75_size
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_-45.0_-3.75_3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_top_clearance
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_45.0_-3.75_3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_top_clearance
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_-45.0_3.75_3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_top_clearance
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_45.0_3.75_3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_top_clearance
-  - oobb_plate_shape_positive_positive_type_3_depth_0_11.25_90_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_-45.0_11.25_97.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_-30.0_11.25_97.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_-15.0_11.25_97.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_0.0_11.25_97.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_15.0_11.25_97.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_30.0_11.25_97.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_45.0_11.25_97.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_45.0_11.25_97.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
+  - oobb_plate_shape_positive_type_90_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7.066666666666666_width_1.5666666666666667_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra
+  - sphere_rectangle_shape_negative_type_0_0_2.9925_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_4_radius_102.0_19.5_135_size
+  - sphere_rectangle_shape_negative_negative_type_0_0_2.9925_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_2_radius_102.0_19.5_75_size
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_-45.0_-3.75_3_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_top_clearance
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_45.0_-3.75_3_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_top_clearance
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_-45.0_3.75_3_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_top_clearance
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_45.0_3.75_3_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_top_clearance
+  - oobb_plate_shape_positive_positive_type_3_depth_0_11.25_90_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_-45.0_11.25_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_-30.0_11.25_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_-15.0_11.25_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_0.0_11.25_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_15.0_11.25_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_30.0_11.25_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_45.0_11.25_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m6_radius_name_3_depth_45.0_11.25_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_7_width_1.5_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m6_hole_extra_90_0_0_rot
   description: oomlout oobb part tray vertical tray vertical 7x1.5x90
   description_extra: only_m6_hole_extra
   description_main: 7_width_1_5_height_90_mm_depth
