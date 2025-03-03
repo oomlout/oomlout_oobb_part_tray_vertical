@@ -26,11 +26,12 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: oobb
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: tray_vertical
   oomp_type: part
-  overwrite: true
+  overwrite: false
   thickness: 30
+  typ: all
   type: oomlout_oobb_part_tray_vertical_tray_vertical
   width: 3
 manufacturer: ''
@@ -62,7 +63,7 @@ thing:
       - 0
       - 0
       - 2.9925
-      r: 4
+      radius: 4
       shape: sphere_rectangle
       size:
       - 42.0
@@ -76,7 +77,7 @@ thing:
       - 0
       - 0
       - 2.9925
-      r: 2
+      radius: 2
       shape: sphere_rectangle
       size:
       - 42.0
@@ -137,6 +138,7 @@ thing:
           inclusion: 3dpr
           pos: *id001
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -204,6 +206,7 @@ thing:
           inclusion: 3dpr
           pos: *id002
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -271,6 +274,7 @@ thing:
           inclusion: 3dpr
           pos: *id003
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -349,6 +353,7 @@ thing:
           inclusion: 3dpr
           pos: *id004
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -416,6 +421,7 @@ thing:
           inclusion: 3dpr
           pos: *id005
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -483,6 +489,7 @@ thing:
           inclusion: 3dpr
           pos: *id006
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -561,6 +568,7 @@ thing:
           inclusion: 3dpr
           pos: *id007
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -628,6 +636,7 @@ thing:
           inclusion: 3dpr
           pos: *id008
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -695,6 +704,7 @@ thing:
           inclusion: 3dpr
           pos: *id009
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -773,6 +783,7 @@ thing:
           inclusion: 3dpr
           pos: *id010
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -840,6 +851,7 @@ thing:
           inclusion: 3dpr
           pos: *id011
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -907,6 +919,7 @@ thing:
           inclusion: 3dpr
           pos: *id012
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -986,6 +999,7 @@ thing:
           inclusion: 3dpr
           pos: *id013
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -1035,6 +1049,7 @@ thing:
           inclusion: 3dpr
           pos: *id014
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -1084,6 +1099,7 @@ thing:
           inclusion: 3dpr
           pos: *id015
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -1144,6 +1160,7 @@ thing:
           inclusion: 3dpr
           pos: *id016
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -1193,6 +1210,7 @@ thing:
           inclusion: 3dpr
           pos: *id017
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -1242,6 +1260,7 @@ thing:
           inclusion: 3dpr
           pos: *id018
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -1302,6 +1321,7 @@ thing:
           inclusion: 3dpr
           pos: *id019
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -1351,6 +1371,7 @@ thing:
           inclusion: 3dpr
           pos: *id020
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -1400,6 +1421,7 @@ thing:
           inclusion: 3dpr
           pos: *id021
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -1460,6 +1482,7 @@ thing:
           inclusion: 3dpr
           pos: *id022
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -1509,6 +1532,7 @@ thing:
           inclusion: 3dpr
           pos: *id023
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -1558,6 +1582,7 @@ thing:
           inclusion: 3dpr
           pos: *id024
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -1597,17 +1622,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_plate
     thickness: 30
+    typ: all
     type: positive
     width: 3.066666666666667
   - extra: countersunk
@@ -1623,22 +1649,23 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 0
     - 0
     - 2.9925
     radius: 4
-    save_type: none
+    save_type: all
     shape: sphere_rectangle
     size:
     - 42.0
     - 132.0
     - 75
     thickness: 30
+    typ: all
     type: negative
     width: 3
   - extra: countersunk
@@ -1654,22 +1681,23 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 0
     - 0
     - 2.9925
     radius: 2
-    save_type: none
+    save_type: all
     shape: sphere_rectangle
     size:
     - 42.0
     - 132.0
     - 15
     thickness: 30
+    typ: all
     type: negative_negative
     width: 3
   - clearance: top
@@ -1687,18 +1715,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - -15.0
     - -60.0
     - 3
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 30
+    typ: all
     type: n
     width: 3
   - clearance: top
@@ -1716,18 +1745,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 15.0
     - -60.0
     - 3
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 30
+    typ: all
     type: n
     width: 3
   - clearance: top
@@ -1745,18 +1775,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - -15.0
     - 60.0
     - 3
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 30
+    typ: all
     type: n
     width: 3
   - clearance: top
@@ -1774,18 +1805,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 15.0
     - 60.0
     - 3
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 30
+    typ: all
     type: n
     width: 3
   - depth: 3
@@ -1802,10 +1834,10 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 0
     - 67.5
@@ -1814,9 +1846,10 @@ thing:
     - 90
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_plate
     thickness: 30
+    typ: all
     type: positive_positive
     width: 3
   - depth: 3
@@ -1833,10 +1866,10 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - -15.0
     - 64.5
@@ -1846,9 +1879,10 @@ thing:
     - 90
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 30
+    typ: all
     type: negative_negative
     width: 3
   - depth: 3
@@ -1865,10 +1899,10 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 0.0
     - 64.5
@@ -1878,9 +1912,10 @@ thing:
     - 90
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 30
+    typ: all
     type: negative_negative
     width: 3
   - depth: 3
@@ -1897,10 +1932,10 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 15.0
     - 64.5
@@ -1910,9 +1945,10 @@ thing:
     - 90
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 30
+    typ: all
     type: negative_negative
     width: 3
   - depth: 3
@@ -1929,10 +1965,10 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: tray_vertical
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 15.0
     - 64.5
@@ -1942,24 +1978,25 @@ thing:
     - 90
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 30
+    typ: all
     type: negative_negative
     width: 3
   components_string:
-  - oobb_plate_shape_positive_type_30_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3.066666666666667_width_9.066666666666666_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra
-  - sphere_rectangle_shape_negative_type_0_0_2.9925_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_4_radius_42.0_132.0_75_size
-  - sphere_rectangle_shape_negative_negative_type_0_0_2.9925_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_2_radius_42.0_132.0_15_size
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_-15.0_-60.0_3_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_top_clearance
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_15.0_-60.0_3_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_top_clearance
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_-15.0_60.0_3_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_top_clearance
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_15.0_60.0_3_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_top_clearance
-  - oobb_plate_shape_positive_positive_type_3_depth_0_67.5_30_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_2_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_90_0_0_rot
-  - oobb_screw_countersunk_shape_negative_negative_type_m3_radius_name_3_depth_-15.0_64.5_37.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_90_0_0_rot
-  - oobb_screw_countersunk_shape_negative_negative_type_m3_radius_name_3_depth_0.0_64.5_37.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_90_0_0_rot
-  - oobb_screw_countersunk_shape_negative_negative_type_m3_radius_name_3_depth_15.0_64.5_37.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_90_0_0_rot
-  - oobb_screw_countersunk_shape_negative_negative_type_m3_radius_name_3_depth_15.0_64.5_37.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_90_0_0_rot
+  - oobb_plate_shape_positive_type_30_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3.066666666666667_width_9.066666666666666_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra
+  - sphere_rectangle_shape_negative_type_0_0_2.9925_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_4_radius_42.0_132.0_75_size
+  - sphere_rectangle_shape_negative_negative_type_0_0_2.9925_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_2_radius_42.0_132.0_15_size
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_-15.0_-60.0_3_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_top_clearance
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_15.0_-60.0_3_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_top_clearance
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_-15.0_60.0_3_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_top_clearance
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_15.0_60.0_3_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_top_clearance
+  - oobb_plate_shape_positive_positive_type_3_depth_0_67.5_30_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_2_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_90_0_0_rot
+  - oobb_screw_countersunk_shape_negative_negative_type_m3_radius_name_3_depth_-15.0_64.5_37.5_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_90_0_0_rot
+  - oobb_screw_countersunk_shape_negative_negative_type_m3_radius_name_3_depth_0.0_64.5_37.5_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_90_0_0_rot
+  - oobb_screw_countersunk_shape_negative_negative_type_m3_radius_name_3_depth_15.0_64.5_37.5_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_90_0_0_rot
+  - oobb_screw_countersunk_shape_negative_negative_type_m3_radius_name_3_depth_15.0_64.5_37.5_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_9_height_30_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_countersunk_extra_90_0_0_rot
   description: oomlout oobb part tray vertical tray vertical 3x9x30
   description_extra: countersunk_extra
   description_main: 3_width_9_height_30_mm_depth
