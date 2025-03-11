@@ -25,9 +25,10 @@ def make_scad(**kwargs):
     oomp_mode = "oobb"
 
     if typ == "all":
-        filter = ""; save_type = "all"; navigation = True; overwrite = False; modes = ["3dpr"]; oomp_run = True
+        #no overwrite
+        #filter = ""; save_type = "all"; navigation = True; overwrite = False; modes = ["3dpr"]; oomp_run = True
         #default
-        #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr", "laser", "true"]
+        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr", "laser", "true"]
     elif typ == "fast":
         filter = ""; save_type = "none"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = False
         #default
@@ -123,8 +124,8 @@ def make_scad(**kwargs):
         extras.append("only_m6_hole")
 
         depths = [30,45,60,75,90]
-        widths = [1,1.5,2,3,4,5,6,7,8,9,10]
-        heights = [1,1.5,2,3,4,5,6,7,8,9,10]
+        widths = [1,1.5,2,3,4,5,6,7,8,9,10,12,14,15]
+        heights = [1,1.5,2,3,4,5,6,7,8,9,10,12,14,15]
 
         #short
         #if True:
