@@ -25,10 +25,12 @@ def make_scad(**kwargs):
     oomp_mode = "oobb"
 
     if typ == "all":
-        #no overwrite
-        #filter = ""; save_type = "all"; navigation = True; overwrite = False; modes = ["3dpr"]; oomp_run = True
+        #no overwrite and filter
+        filter = ""
+        #filter = """
+        #filter = filter; save_type = "all"; navigation = True; overwrite = False; modes = ["3dpr"]; oomp_run = True
         #default
-        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr", "laser", "true"]
+        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
     elif typ == "fast":
         filter = ""; save_type = "none"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = False
         #default
@@ -119,9 +121,11 @@ def make_scad(**kwargs):
         
 
         extras = []
-        extras.append("")
-        extras.append("countersunk")
-        extras.append("only_m6_hole")
+        #extras.append("")
+        #extras.append("countersunk")
+        #extras.append("only_m6_hole")
+        extras.append("only_m3_hole")
+        extras.append("magnet")
 
         depths = [30,45,60,75,90]
         widths = [1,1.5,2,3,4,5,6,7,8,9,10,12,14,15]
@@ -151,6 +155,26 @@ def make_scad(**kwargs):
                         if oomp_mode == "oobb":
                             p3["oomp_size"] = nam
                         parts.append(part)
+    test = False
+    #test = True
+
+    if test:
+        parts = []
+        part = copy.deepcopy(part_default)
+        p3 = copy.deepcopy(kwargs)
+        p3["width"] = 2
+        p3["height"] = 2
+        p3["thickness"] = 90
+        #p3["extra"] = ""
+        #p3["extra"] = "magnet"
+        p3["extra"] = "only_m3_hole"
+
+        part["kwargs"] = p3
+        nam = "tray_vertical"
+        part["name"] = nam
+        if oomp_mode == "oobb":
+            p3["oomp_size"] = nam
+        parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -324,7 +348,9 @@ def get_tray_vertical(thing, **kwargs):
         p3["shape"] = f"oobb_plate"
         p3["width"] = width
         p3["height"] = 2
-        p3["depth"] = 3        
+        p3["depth"] = 3      
+        if extra == "magnet":  
+            p3["depth"] = 6
         #p3["m"] = "#"
         pos1 = copy.deepcopy(pos)
         pos1[0] += 0
@@ -337,49 +363,68 @@ def get_tray_vertical(thing, **kwargs):
         oobb_base.append_full(thing,**p3)
         
         #add holes
-        p3 = copy.deepcopy(kwargs)
-        p3["type"] = "negative_negative"
-        p3["shape"] = f"oobb_hole"        
-        p3["radius_name"] = "m6"
-        shift_y = 0
-        if extra == "countersunk":
-            p3["shape"] = f"oobb_screw_countersunk"
-            p3["radius_name"] = "m3"
-            shift_y =3
+        if True:
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "negative_negative"
+            p3["shape"] = f"oobb_hole"        
+            p3["radius_name"] = "m6"
+            if extra == "only_m3_hole" or extra == "magnet":
+                p3["radius_name"] = "m3"
+            shift_y = 0
+            if extra == "countersunk":
+                p3["shape"] = f"oobb_screw_countersunk"
+                p3["radius_name"] = "m3"
+                shift_y =3
+            dep = 15
+            p3["depth"] = dep
+            p3["m"] = "#"
+            rot1 = copy.deepcopy(rot)
+            rot1[0] = 90
+            rot1[1] = 0
+            p3["rot"] = rot1
+            pos1 = copy.deepcopy(pos)
             
-        p3["depth"] = 3
-        #p3["m"] = "#"
-        rot1 = copy.deepcopy(rot)
-        rot1[0] = 90
-        rot1[1] = 0
-        p3["rot"] = rot1
-        pos1 = copy.deepcopy(pos)
-        
-        width_iterate = math.floor(width)
-        
-        pos1[0] += -(width_iterate-1) * 15 / 2
-        pos1[1] += height * 15 / 2 - shift_y
-        pos1[2] += depth +  7.5
-        p3["pos"] = pos1
+            width_iterate = math.floor(width)
+            
+            pos1[0] += -(width_iterate-1) * 15 / 2
+            pos1[1] += height * 15 / 2 - shift_y
+            pos1[2] += depth +  7.5
+            p3["pos"] = pos1
 
-        
+            
 
-        for i in range(width_iterate):            
-            p3 = copy.deepcopy(p3)
-            pos11 = copy.deepcopy(pos1)
-            pos11[0] += i * 15
-            p3["pos"] = pos11             
-            oobb_base.append_full(thing,**p3)
-            if i != width_iterate-1:
-                p4 = copy.deepcopy(p3)
-                pos12 = copy.deepcopy(pos11)
-                pos12[0] += 7.5
-                p4["pos"] = pos12
-                p4["radius_name"] = "m3"
-                if extra == "":
-                    oobb_base.append_full(thing,**p4)
-     
-        oobb_base.append_full(thing,**p3)
+            for i in range(width_iterate):            
+                p3 = copy.deepcopy(p3)
+                pos11 = copy.deepcopy(pos1)
+                pos11[0] += i * 15
+                p3["pos"] = pos11             
+                oobb_base.append_full(thing,**p3)
+                if i != width_iterate-1:
+                    p4 = copy.deepcopy(p3)
+                    pos12 = copy.deepcopy(pos11)
+                    pos12[0] += 7.5
+                    p4["pos"] = pos12
+                    p4["radius_name"] = "m3"
+                    if extra == "" or extra == "only_m3_hole":
+                        oobb_base.append_full(thing,**p4)
+                if extra == "magnet":
+                    #add cylinders
+                    p5 = copy.deepcopy(kwargs)
+                    p5["type"] = "negative_negative"
+                    p5["shape"] = f"oobb_cylinder"
+                    p5["radius"] = 16/2
+                    dep = 2.5
+                    p5["depth"] = dep
+                    p5["m"] = "#"
+                    pos13 = copy.deepcopy(pos11)                                        
+                    pos13[2] += dep/2
+                    p5["pos"] = pos13
+                    rot1 = copy.deepcopy(rot)
+                    rot1[0] = 90
+                    p5["rot"] = rot1
+                    oobb_base.append_full(thing,**p5)
+        
+            #oobb_base.append_full(thing,**p3)
 
 
     #add holes seperate
