@@ -54,7 +54,7 @@ note: This is part of OOMP the Oopen Organization Method For Parts. For more det
 | full_shift | [0, 0, 0] |  
 | id | oobb_part_tray_vertical_4_width_2_height_30_mm_depth |  
 | id_oobb | oobb_part_oomlout_oobb_part_tray_vertical_tray_vertical_4_width_2_height_30_mm_depth |  
-| kwargs | {'filter': '', 'height': 2, 'modes': ['3dpr'], 'navigation': True, 'oomp_classification': 'oobb', 'oomp_color': '', 'oomp_description_extra': '', 'oomp_description_main': '4_width_2_height_30_mm_depth', 'oomp_manufacturer': '', 'oomp_mode': 'oobb', 'oomp_part_number': '', 'oomp_run': True, 'oomp_size': 'tray_vertical', 'oomp_type': 'part', 'overwrite': False, 'thickness': 30, 'typ': 'all', 'type': 'oomlout_oobb_part_tray_vertical_tray_vertical', 'width': 4} |  
+| kwargs | {'filter': '', 'height': 2, 'modes': ['3dpr'], 'navigation': True, 'oomp_classification': 'oobb', 'oomp_color': '', 'oomp_description_extra': '', 'oomp_description_main': '4_width_2_height_30_mm_depth', 'oomp_manufacturer': '', 'oomp_mode': 'oobb', 'oomp_part_number': '', 'oomp_run': False, 'oomp_size': 'tray_vertical', 'oomp_type': 'part', 'overwrite': True, 'thickness': 30, 'type': 'oomlout_oobb_part_tray_vertical_tray_vertical', 'width': 4} |  
 | manufacturer |  |  
 | name | tray_vertical |  
 | part_number |  |  

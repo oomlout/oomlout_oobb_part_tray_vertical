@@ -950,11 +950,12 @@ thing:
       - 3
       type: positive_positive
       width: 2
-  - - depth: 3
+  - - depth: 15
       extra: only_m3_hole
-      h: 3
+      h: 15
       height: 2
       inclusion: laser
+      m: '#'
       pos: &id013
       - -7.5
       - 15.0
@@ -967,35 +968,38 @@ thing:
       shape: cylinder
       type: negative_negative
       width: 2
-    - depth: 3
+    - depth: 15
       extra: only_m3_hole
-      h: 3
+      h: 15
       height: 2
       inclusion: 3dpr
+      m: '#'
       pos: *id013
       r: 1.8
       rot: *id014
       shape: cylinder
       type: negative_negative
       width: 2
-    - depth: 3
+    - depth: 15
       extra: only_m3_hole
-      h: 3
+      h: 15
       height: 2
       inclusion: 'true'
+      m: '#'
       pos: *id013
       r: 1.5
       rot: *id014
       shape: cylinder
       type: negative_negative
       width: 2
-  - - depth: 3
+  - - depth: 15
       extra: only_m3_hole
-      h: 3
+      h: 15
       height: 2
       inclusion: laser
+      m: '#'
       pos: &id015
-      - 7.5
+      - 0.0
       - 15.0
       - 97.5
       r: 1.5
@@ -1006,33 +1010,36 @@ thing:
       shape: cylinder
       type: negative_negative
       width: 2
-    - depth: 3
+    - depth: 15
       extra: only_m3_hole
-      h: 3
+      h: 15
       height: 2
       inclusion: 3dpr
+      m: '#'
       pos: *id015
       r: 1.8
       rot: *id016
       shape: cylinder
       type: negative_negative
       width: 2
-    - depth: 3
+    - depth: 15
       extra: only_m3_hole
-      h: 3
+      h: 15
       height: 2
       inclusion: 'true'
+      m: '#'
       pos: *id015
       r: 1.5
       rot: *id016
       shape: cylinder
       type: negative_negative
       width: 2
-  - - depth: 3
+  - - depth: 15
       extra: only_m3_hole
-      h: 3
+      h: 15
       height: 2
       inclusion: laser
+      m: '#'
       pos: &id017
       - 7.5
       - 15.0
@@ -1045,22 +1052,24 @@ thing:
       shape: cylinder
       type: negative_negative
       width: 2
-    - depth: 3
+    - depth: 15
       extra: only_m3_hole
-      h: 3
+      h: 15
       height: 2
       inclusion: 3dpr
+      m: '#'
       pos: *id017
       r: 1.8
       rot: *id018
       shape: cylinder
       type: negative_negative
       width: 2
-    - depth: 3
+    - depth: 15
       extra: only_m3_hole
-      h: 3
+      h: 15
       height: 2
       inclusion: 'true'
+      m: '#'
       pos: *id017
       r: 1.5
       rot: *id018
@@ -1304,10 +1313,11 @@ thing:
     thickness: 90
     type: positive_positive
     width: 2
-  - depth: 3
+  - depth: 15
     extra: only_m3_hole
     filter: ''
     height: 2
+    m: '#'
     modes:
     - 3dpr
     navigation: true
@@ -1336,10 +1346,11 @@ thing:
     thickness: 90
     type: negative_negative
     width: 2
-  - depth: 3
+  - depth: 15
     extra: only_m3_hole
     filter: ''
     height: 2
+    m: '#'
     modes:
     - 3dpr
     navigation: true
@@ -1355,7 +1366,7 @@ thing:
     oomp_type: part
     overwrite: true
     pos:
-    - 7.5
+    - 0.0
     - 15.0
     - 97.5
     radius_name: m3
@@ -1368,10 +1379,11 @@ thing:
     thickness: 90
     type: negative_negative
     width: 2
-  - depth: 3
+  - depth: 15
     extra: only_m3_hole
     filter: ''
     height: 2
+    m: '#'
     modes:
     - 3dpr
     navigation: true
@@ -1409,9 +1421,9 @@ thing:
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_-7.5_7.5_3_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m3_hole_extra_top_clearance
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_7.5_7.5_3_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m3_hole_extra_top_clearance
   - oobb_plate_shape_positive_positive_type_3_depth_0_15.0_90_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m3_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m3_radius_name_3_depth_-7.5_15.0_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m3_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m3_radius_name_3_depth_7.5_15.0_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m3_hole_extra_90_0_0_rot
-  - oobb_hole_shape_negative_negative_type_m3_radius_name_3_depth_7.5_15.0_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m3_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m3_radius_name_15_depth_-7.5_15.0_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m3_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m3_radius_name_15_depth_0.0_15.0_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m3_hole_extra_90_0_0_rot
+  - oobb_hole_shape_negative_negative_type_m3_radius_name_15_depth_7.5_15.0_97.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_2_height_90_thickness_oobb_oomp_classification_part_oomp_type_tray_vertical_oomp_size_only_m3_hole_extra_90_0_0_rot
   description: oomlout oobb part tray vertical tray vertical 2x2x90
   description_extra: only_m3_hole_extra
   description_main: 2_width_2_height_90_mm_depth
