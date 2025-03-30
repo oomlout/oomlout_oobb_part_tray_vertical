@@ -63,7 +63,7 @@ thing:
       - 0
       - 0
       - 2.9925
-      r: 4
+      radius: 4
       shape: sphere_rectangle
       size:
       - 117.0
@@ -77,7 +77,7 @@ thing:
       - 0
       - 0
       - 2.9925
-      r: 2
+      radius: 2
       shape: sphere_rectangle
       size:
       - 117.0
@@ -138,6 +138,7 @@ thing:
           inclusion: 3dpr
           pos: *id001
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 8
@@ -205,6 +206,7 @@ thing:
           inclusion: 3dpr
           pos: *id002
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 8
@@ -272,6 +274,7 @@ thing:
           inclusion: 3dpr
           pos: *id003
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 8
@@ -350,6 +353,7 @@ thing:
           inclusion: 3dpr
           pos: *id004
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 8
@@ -417,6 +421,7 @@ thing:
           inclusion: 3dpr
           pos: *id005
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 8
@@ -484,6 +489,7 @@ thing:
           inclusion: 3dpr
           pos: *id006
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 8
@@ -562,6 +568,7 @@ thing:
           inclusion: 3dpr
           pos: *id007
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 8
@@ -629,6 +636,7 @@ thing:
           inclusion: 3dpr
           pos: *id008
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 8
@@ -696,6 +704,7 @@ thing:
           inclusion: 3dpr
           pos: *id009
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 8
@@ -774,6 +783,7 @@ thing:
           inclusion: 3dpr
           pos: *id010
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 8
@@ -841,6 +851,7 @@ thing:
           inclusion: 3dpr
           pos: *id011
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 8
@@ -908,6 +919,7 @@ thing:
           inclusion: 3dpr
           pos: *id012
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 8
