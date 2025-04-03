@@ -124,8 +124,9 @@ def make_scad(**kwargs):
         #extras.append("")
         #extras.append("countersunk")
         #extras.append("only_m6_hole")
-        extras.append("only_m3_hole")
-        extras.append("magnet")
+        #extras.append("only_m3_hole")
+        #extras.append("magnet_disc_m3_countersunk_15_mm_diameter_3_mm_depth")
+        extras.append("magnet_disc_m3_countersunk_15_mm_diameter_2_mm_depth")
 
         depths = [30,45,60,75,90]
         widths = [1,1.5,2,3,4,5,6,7,8,9,10,12,14,15]
@@ -349,7 +350,7 @@ def get_tray_vertical(thing, **kwargs):
         p3["width"] = width
         p3["height"] = 2
         p3["depth"] = 3      
-        if extra == "magnet":  
+        if "magnet" in extra:  
             p3["depth"] = 6
         #p3["m"] = "#"
         pos1 = copy.deepcopy(pos)
@@ -368,7 +369,7 @@ def get_tray_vertical(thing, **kwargs):
             p3["type"] = "negative_negative"
             p3["shape"] = f"oobb_hole"        
             p3["radius_name"] = "m6"
-            if extra == "only_m3_hole" or extra == "magnet":
+            if extra == "only_m3_hole" or "magnet" in extra:
                 p3["radius_name"] = "m3"
             shift_y = 0
             if extra == "countersunk":
@@ -377,7 +378,7 @@ def get_tray_vertical(thing, **kwargs):
                 shift_y =3
             dep = 15
             p3["depth"] = dep
-            p3["m"] = "#"
+            #p3["m"] = "#"
             rot1 = copy.deepcopy(rot)
             rot1[0] = 90
             rot1[1] = 0
@@ -407,15 +408,22 @@ def get_tray_vertical(thing, **kwargs):
                     p4["radius_name"] = "m3"
                     if extra == "" or extra == "only_m3_hole":
                         oobb_base.append_full(thing,**p4)
-                if extra == "magnet":
+                if "magnet" in extra:
                     #add cylinders
                     p5 = copy.deepcopy(kwargs)
                     p5["type"] = "negative_negative"
                     p5["shape"] = f"oobb_cylinder"
                     p5["radius"] = 16/2
-                    dep = 2.5
+                    #get the depth of the magnet from a string like this magnet_disc_m3_countersunk_15_mm_diameter_3_mm_depth depth can change
+                    string_split = extra.split("_")
+                    for i in range(len(string_split)):
+                        if string_split[i] == "depth":
+                            dep = float(string_split[i-2])
+
+
+                    
                     p5["depth"] = dep
-                    p5["m"] = "#"
+                    #p5["m"] = "#"
                     pos13 = copy.deepcopy(pos11)                                        
                     pos13[2] += dep/2
                     p5["pos"] = pos13
