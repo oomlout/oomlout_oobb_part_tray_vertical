@@ -121,16 +121,21 @@ def make_scad(**kwargs):
         
 
         extras = []
-        #extras.append("")
-        #extras.append("countersunk")
-        #extras.append("only_m6_hole")
-        #extras.append("only_m3_hole")
-        #extras.append("magnet_disc_m3_countersunk_15_mm_diameter_3_mm_depth")
+        extras.append("")
+        extras.append("countersunk")
+        extras.append("only_m6_hole")
+        extras.append("only_m3_hole")
+        extras.append("magnet_disc_m3_countersunk_15_mm_diameter_3_mm_depth")
         extras.append("magnet_disc_m3_countersunk_15_mm_diameter_2_mm_depth")
 
         depths = [30,45,60,75,90]
         widths = [1,1.5,2,3,4,5,6,7,8,9,10,12,14,15]
         heights = [1,1.5,2,3,4,5,6,7,8,9,10,12,14,15]
+
+        if False:
+            depths = [60]
+            widths = [2,6]
+            heights = [2,6]
 
         #short
         #if True:
