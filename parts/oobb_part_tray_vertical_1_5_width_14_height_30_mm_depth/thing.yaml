@@ -1213,4 +1213,13 @@ thing:
   manufacturer: ''
   name: Oobb Part Oomlout Oobb Part Tray Vertical Tray Vertical 1 5 Width 14 Height
     30 mm Depth
-  name_short: Oomlout Tray Vertical Tray Vertica
+  name_short: Oomlout Tray Vertical Tray Vertical 1
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_part_tray_vertical_tray_vertical
+  thickness: 30
+  thickness_mm: 30
+  type: part
+  width: 1.5
+  width_mm: 21.5
+type: part
