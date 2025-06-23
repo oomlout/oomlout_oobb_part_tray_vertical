@@ -955,7 +955,6 @@ thing:
       h: 15
       height: 1
       inclusion: laser
-      m: '#'
       pos: &id013
       - 0.0
       - 7.5
@@ -973,7 +972,6 @@ thing:
       h: 15
       height: 1
       inclusion: 3dpr
-      m: '#'
       pos: *id013
       r: 1.8
       rot: *id014
@@ -985,7 +983,6 @@ thing:
       h: 15
       height: 1
       inclusion: 'true'
-      m: '#'
       pos: *id013
       r: 1.5
       rot: *id014
@@ -997,7 +994,6 @@ thing:
       h: 3.0
       height: 1
       inclusion: laser
-      m: '#'
       pos: &id015
       - 0.0
       - 7.5
@@ -1016,7 +1012,6 @@ thing:
       h: 3.0
       height: 1
       inclusion: 3dpr
-      m: '#'
       pos: *id015
       r: 8.0
       rot: *id016
@@ -1028,7 +1023,6 @@ thing:
       h: 3.0
       height: 1
       inclusion: 'true'
-      m: '#'
       pos: *id015
       r: 8.0
       radius: 8.0
@@ -1277,7 +1271,6 @@ thing:
     extra: magnet_disc_m3_countersunk_15_mm_diameter_3_mm_depth
     filter: ''
     height: 1
-    m: '#'
     modes:
     - 3dpr
     navigation: true
@@ -1310,7 +1303,6 @@ thing:
     extra: magnet_disc_m3_countersunk_15_mm_diameter_3_mm_depth
     filter: ''
     height: 1
-    m: '#'
     modes:
     - 3dpr
     navigation: true
