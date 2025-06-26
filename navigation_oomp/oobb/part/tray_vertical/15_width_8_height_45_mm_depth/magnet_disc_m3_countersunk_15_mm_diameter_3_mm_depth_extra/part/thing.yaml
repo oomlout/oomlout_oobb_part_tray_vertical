@@ -63,7 +63,7 @@ thing:
       - 0
       - 0
       - 2.9925
-      r: 4
+      radius: 4
       shape: sphere_rectangle
       size:
       - 222.0
@@ -77,7 +77,7 @@ thing:
       - 0
       - 0
       - 2.9925
-      r: 2
+      radius: 2
       shape: sphere_rectangle
       size:
       - 222.0
@@ -138,6 +138,7 @@ thing:
           inclusion: 3dpr
           pos: *id001
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 15
@@ -205,6 +206,7 @@ thing:
           inclusion: 3dpr
           pos: *id002
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 15
@@ -272,6 +274,7 @@ thing:
           inclusion: 3dpr
           pos: *id003
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 15
@@ -350,6 +353,7 @@ thing:
           inclusion: 3dpr
           pos: *id004
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 15
@@ -417,6 +421,7 @@ thing:
           inclusion: 3dpr
           pos: *id005
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 15
@@ -484,6 +489,7 @@ thing:
           inclusion: 3dpr
           pos: *id006
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 15
@@ -562,6 +568,7 @@ thing:
           inclusion: 3dpr
           pos: *id007
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 15
@@ -629,6 +636,7 @@ thing:
           inclusion: 3dpr
           pos: *id008
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 15
@@ -696,6 +704,7 @@ thing:
           inclusion: 3dpr
           pos: *id009
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 15
@@ -774,6 +783,7 @@ thing:
           inclusion: 3dpr
           pos: *id010
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 15
@@ -841,6 +851,7 @@ thing:
           inclusion: 3dpr
           pos: *id011
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 15
@@ -908,6 +919,7 @@ thing:
           inclusion: 3dpr
           pos: *id012
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 15
@@ -1015,6 +1027,7 @@ thing:
       inclusion: 3dpr
       pos: *id015
       r: 8.0
+      radius: 8.0
       rot: *id016
       shape: cylinder
       type: negative_negative
@@ -1095,6 +1108,7 @@ thing:
       inclusion: 3dpr
       pos: *id019
       r: 8.0
+      radius: 8.0
       rot: *id020
       shape: cylinder
       type: negative_negative
@@ -1175,6 +1189,7 @@ thing:
       inclusion: 3dpr
       pos: *id023
       r: 8.0
+      radius: 8.0
       rot: *id024
       shape: cylinder
       type: negative_negative
@@ -1255,6 +1270,7 @@ thing:
       inclusion: 3dpr
       pos: *id027
       r: 8.0
+      radius: 8.0
       rot: *id028
       shape: cylinder
       type: negative_negative
@@ -1335,6 +1351,7 @@ thing:
       inclusion: 3dpr
       pos: *id031
       r: 8.0
+      radius: 8.0
       rot: *id032
       shape: cylinder
       type: negative_negative
@@ -1415,6 +1432,7 @@ thing:
       inclusion: 3dpr
       pos: *id035
       r: 8.0
+      radius: 8.0
       rot: *id036
       shape: cylinder
       type: negative_negative
@@ -1495,6 +1513,7 @@ thing:
       inclusion: 3dpr
       pos: *id039
       r: 8.0
+      radius: 8.0
       rot: *id040
       shape: cylinder
       type: negative_negative
@@ -1575,6 +1594,7 @@ thing:
       inclusion: 3dpr
       pos: *id043
       r: 8.0
+      radius: 8.0
       rot: *id044
       shape: cylinder
       type: negative_negative
@@ -1655,6 +1675,7 @@ thing:
       inclusion: 3dpr
       pos: *id047
       r: 8.0
+      radius: 8.0
       rot: *id048
       shape: cylinder
       type: negative_negative
@@ -1735,6 +1756,7 @@ thing:
       inclusion: 3dpr
       pos: *id051
       r: 8.0
+      radius: 8.0
       rot: *id052
       shape: cylinder
       type: negative_negative
@@ -1815,6 +1837,7 @@ thing:
       inclusion: 3dpr
       pos: *id055
       r: 8.0
+      radius: 8.0
       rot: *id056
       shape: cylinder
       type: negative_negative
@@ -1895,6 +1918,7 @@ thing:
       inclusion: 3dpr
       pos: *id059
       r: 8.0
+      radius: 8.0
       rot: *id060
       shape: cylinder
       type: negative_negative
@@ -1975,6 +1999,7 @@ thing:
       inclusion: 3dpr
       pos: *id063
       r: 8.0
+      radius: 8.0
       rot: *id064
       shape: cylinder
       type: negative_negative
@@ -2055,6 +2080,7 @@ thing:
       inclusion: 3dpr
       pos: *id067
       r: 8.0
+      radius: 8.0
       rot: *id068
       shape: cylinder
       type: negative_negative
@@ -2135,6 +2161,7 @@ thing:
       inclusion: 3dpr
       pos: *id071
       r: 8.0
+      radius: 8.0
       rot: *id072
       shape: cylinder
       type: negative_negative
