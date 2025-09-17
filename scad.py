@@ -129,8 +129,8 @@ def make_scad(**kwargs):
         extras.append("magnet_disc_m3_countersunk_15_mm_diameter_2_mm_depth")
 
         depths = [30,45,60,75,90]
-        widths = [1,1.5,2,3,4,5,6,7,8,9,10,12,14,15]
-        heights = [1,1.5,2,3,4,5,6,7,8,9,10,12,14,15]
+        widths = [1,1.5,2,3,4,5,6,7,8,9,10,11,12,14,15]
+        heights = [1,1.5,2,3,4,5,6,7,8,9,10,11,12,14,15]
 
         if False:
             depths = [60]
